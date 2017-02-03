@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>TimGod - 代码人生</title>
+    <script type="text/javascript" src="http://src.timgod.com/js/jquery.js"></script>
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="http://src.timgod.com/js/jquery.wechat.share.js"></script>
+    <script type="text/javascript" src="assets/main.js"></script>
+    <script>
+    $(function(){
+      var url = location.href;
+      if (location.hash.length) {
+        url = url.substr(0, url.indexOf(location.hash));
+      }
+      shareData = {
+        title: 'TimGod - 代码人生',
+        desc: '代码人生，潇潇洒洒走一生\nWhat will you do with your one wild and precious life?',
+        link: url,
+        imgUrl: 'http://src.timgod.com/www/img/logo/n3d.jpg'
+      };
+      $.wechatShare(shareData);
+    })
+    </script>
+    <link rel="stylesheet" type="text/css" href="assets/main.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="http://src.timgod.com/www/img/logo/n3d.jpg">
+</head>
+
+<body onload="music_start()">
+<div class="main-body">
+    <div class="sidebar">
+        <div class="header">
+            <div align="center"><img src="http://src.timgod.com/www/img/logo/n3d.jpg"></div>
+            <div class="quote">
+                <p class="quote-text animate-init">代码人生，潇潇洒洒走一生</p>
+                <p class="quote-text animate-init">what will you do with your one wild and precious life</p>
+            </div>
+        </div>
+        <div class="menu">
+            <a href="http://code.timgod.com" class="animate-init">Code</a>
+            <a href="http://blog.timgod.com" class="animate-init">Blog</a>
+        </div>
+        <div class="location">
+            <i class="location-icon"></i>
+            <span class="location-text animate-init">Guangzhou - China</span>
+        </div>
+    </div>
+
+    <div class="content">
+        <span class="close">close</span>
+    </div>
+</div>
+<div class="footer">
+  <p>Copyright © 2010-2017 TimGod.com. <a href="http://www.miitbeian.gov.cn/">粤ICP备14089936号</a></p>
+</div>
+<div onclick="music_control()" id="audio_btn" class="off" style="display: block;">
+    <audio loop="" src="" id="media" preload=""></audio>
+</div>
+<script>
+  birdsCanvas();
+</script>
+</body>
+</html>
