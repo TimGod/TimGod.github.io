@@ -114,7 +114,7 @@ $(document).ready(function () {
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?e154f9e9c8bd3dcfb952ab9af82b75bf";
+  hm.src = "https://hm.baidu.com/hm.js?c424a70b4b2a99c5736d45c6df6cca02";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
@@ -123,8 +123,8 @@ var _hmt = _hmt || [];
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-73230823-1', 'auto');
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-91651022-1', 'auto');
 ga('send', 'pageview');
 
 /* js for utility */
