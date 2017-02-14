@@ -26,12 +26,12 @@ ul, ol {
 }
 
 .main-body img {
-    height: 150px;
+    height: 80px;
 }
 
 @media (max-width: 767px) {
     .main-body img {
-        height: 100px;
+        height: 60px;
     }
 }
 
