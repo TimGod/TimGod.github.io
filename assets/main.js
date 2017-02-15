@@ -42,20 +42,13 @@ function music_pause() {
 }
 function getMusicUrl() {
   var musicList = [
-    'AlisonKrauss-ItWouldntHaveMadeaDifference.mp3',
-    'DanielPowter-Cupid.mp3',
     'dream-it-possible.mp3',
-    'Maroon5-IfINeverSeeYourFaceAgain.mp3',
     'TannerTownsend-LoveStoryMeetsVivalaVida.mp3',
     '夢灯籠(《你的名字。》动画电影片头曲).mp3',
     '林俊杰-女儿情(Live).mp3',
     '林俊杰-爱要怎么说出口(Live).mp3',
     '汪晨蕊-你还要我怎样(Live).mp3',
-    '没什么大不了(《你的名字。》动画电影片尾曲).mp3',
-    '火花(《你的名字。》动画电影插曲).mp3',
     '网络歌手-火影疾风.mp3',
-    '薛之谦-我好像在哪见过你.mp3',
-    '陈冰-一个人(Live).mp3',
     '黄雅莉-丑八怪(Live).mp3'
   ];
   var songNum = musicList.length;
